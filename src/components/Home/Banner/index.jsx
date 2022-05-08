@@ -13,7 +13,7 @@ const Banner = () => {
             <h1> A Very Delicious food for you</h1>
             <p>We made fresh and healthy meals with diffrent recipes</p>
             <button>
-              Veiw Menu --><i className="fas fa-long-arrow-alt-right"></i>
+              Veiw Menu...<i className="fa fa-arrow-right"></i>
             </button>
           </div>
         </div>

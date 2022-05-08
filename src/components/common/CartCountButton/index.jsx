@@ -1,8 +1,13 @@
-import React from 'react'
-import './style.css'
-const  CartCountButton = () => {
+import React from 'react';
+import './style.css';
+import { useNavigate } from 'react-router-dom';
+const  CartCountButton = ({cartCout}) => {
+  const history = useNavigate();
   return (
-    <div> <h1>CartCountButton</h1></div>
+    <div className='btnCartCount' onClick={()=> history('/cart')}>
+      <div className="count">{cartCout>=100 ? '99+':cartCout}</div>
+    <i className="fa fa-shopping-cart"></i>
+    </div>
   )
 }
 
