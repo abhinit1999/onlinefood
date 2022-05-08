@@ -4,18 +4,26 @@ import logoImg from "./logo.png";
 
 const Logo = () => {
   return (
-    <div className="logo">
-      <div>
+    <div className="nav">
+      <div className="logo">
         <img src={logoImg} alt="logoImg" />
 
-        <span>
+        {/* <span>
           <b>Taste</b>
         </span>
 
         <p>
           <b>Resturant & BBQ</b>
-        </p>
+        </p> */}
       </div>
+      <div className="navBar">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Explor More</a></li>
+          <li><a href="">Account</a></li>
+        </ul>
+      </div>
+
     </div>
   );
 };

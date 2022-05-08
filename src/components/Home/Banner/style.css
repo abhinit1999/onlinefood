@@ -3,9 +3,10 @@ header {
   grid-template-columns: 1fr 1fr;
   padding-top: 0.5rem;
   height: 100vh;
+  margin-left: 50px;
 }
 .header_img {
-  width: 100%;
+  width:60%;
   align-self: center;
   border-radius: 30%;
   background: none;

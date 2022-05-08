@@ -13,7 +13,7 @@ const Footer = () => {
 
 <footer className="section-p1">
         <div className="col">
-          <img className="logo" src={logo} alt="img" />
+          {/* <img className="logo" src={logo} alt="img" /> */}
           <h4>Contact</h4>
           <p>
             <strong>Address: </strong> 1352 Siwan Bihar India
