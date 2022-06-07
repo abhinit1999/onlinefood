@@ -11,7 +11,7 @@ const Banner = () => {
         <div className="header_content">
           <div className="content_main">
             <h1> A Very Delicious food for you</h1>
-            <p>We made fresh and healthy meals with diffrent recipes</p>
+            <p>We made fresh and healthy meals with diffrent recipes.</p>
             <button>
               Veiw Menu...<i className="fa fa-arrow-right"></i>
             </button>
